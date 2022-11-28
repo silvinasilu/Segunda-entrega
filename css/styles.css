@@ -62,14 +62,10 @@ main p {
 
 
 
-main nav ul {
-    display: flex;
-    column-gap: 0.5rem;
-    list-style: none;
-    padding: 2rem
-}
 
-.menu {
+
+.nav li {
+    margin: 1rem;
     border-radius: 10px;
     background-color: pink;
     box-shadow: 5px 5px 5px rgb(187, 28, 81);
@@ -77,6 +73,7 @@ main nav ul {
     font-weight: bold;
     font-size: 2rem;
     font-style: oblique;
+    
 }
 
 
@@ -204,7 +201,7 @@ footer ul {
 
     /*estilos del main*/
 
-    .menu:hover{
+    .nav li:hover{
         background-color:rgb(187, 28, 81);
         transform: scale(0.8);
     }
